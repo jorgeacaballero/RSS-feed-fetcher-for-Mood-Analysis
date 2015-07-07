@@ -27,6 +27,12 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # gem 'bcrypt', '~> 3.1.7'
 gem 'feedjira'
 gem 'nokogiri'
+gem 'n_gram'
+
+group :development do
+  gem 'better_errors'
+  gem 'binding_of_caller'
+end
 
 # Use Unicorn as the app server
 # gem 'unicorn'
